@@ -45,16 +45,16 @@ class CardValidatorTests: XCTestCase {
     }
 
     func testValidateExpiryDate() {
-        expect(CardValidator.validateExpiryDate("02", year: "2018")).to(beTrue())
+        expect(CardValidator.validateExpiryDate("02", year: "2020")).to(beTrue())
         expect(CardValidator.validateExpiryDate("02", year: "35")).to(beTrue())
         expect(CardValidator.validateExpiryDate("02", year: "15")).to(beFalse())
         expect(CardValidator.validateExpiryDate("02", year: "1999")).to(beFalse())
-        expect(CardValidator.validateExpiryDate(02, year: 2018)).to(beTrue())
+        expect(CardValidator.validateExpiryDate(02, year: 2020)).to(beTrue())
         expect(CardValidator.validateExpiryDate(02, year: 35)).to(beTrue())
         expect(CardValidator.validateExpiryDate(02, year: 15)).to(beFalse())
         expect(CardValidator.validateExpiryDate(12, year: 1999)).to(beFalse())
-        expect(CardValidator.validateExpiryDate("02", year: "2018")).to(beTrue())
-        expect(CardValidator.validateExpiryDate("02", year: "2018")).to(beTrue())
+        expect(CardValidator.validateExpiryDate("02", year: "2020")).to(beTrue())
+        expect(CardValidator.validateExpiryDate("02", year: "2020")).to(beTrue())
     }
 
     func testValidateCVV() {
@@ -122,7 +122,7 @@ class CheckoutKitTests: XCTestCase {
         expect(err).to(beNil())
         var c: Card?
         do {
-            c = try Card(name: "", number: "4242424242424242", expYear: "19", expMonth: "6", cvv: "100", billingDetails: cd)
+            c = try Card(name: "", number: "4242424242424242", expYear: "20", expMonth: "6", cvv: "100", billingDetails: cd)
         } catch let error as NSError {
             err = error
             c = nil
