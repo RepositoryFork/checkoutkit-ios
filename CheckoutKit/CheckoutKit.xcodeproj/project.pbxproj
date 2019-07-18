@@ -3,199 +3,196 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E19347EE1C07771B007CBFE7 /* CheckoutKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EAEAD51B8DAD0600F3003E /* CheckoutKitTests.swift */; };
-		E1EAEAC91B8DAD0600F3003E /* CheckoutKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E1EAEAC81B8DAD0600F3003E /* CheckoutKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1EAEACF1B8DAD0600F3003E /* CheckoutKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1EAEAC31B8DAD0600F3003E /* CheckoutKit.framework */; };
-		E1EAEB371B8DAFE900F3003E /* CardProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EAEB271B8DAFE900F3003E /* CardProvider.swift */; };
-		E1EAEB381B8DAFE900F3003E /* CardProviderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EAEB281B8DAFE900F3003E /* CardProviderResponse.swift */; };
-		E1EAEB3C1B8DAFE900F3003E /* CheckoutKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EAEB2C1B8DAFE900F3003E /* CheckoutKit.swift */; };
-		E1EAEB3E1B8DAFE900F3003E /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EAEB2E1B8DAFE900F3003E /* Error.swift */; };
-		E1EAEB3F1B8DAFE900F3003E /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EAEB2F1B8DAFE900F3003E /* HTTPRequest.swift */; };
-		E1EAEB401B8DAFE900F3003E /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EAEB301B8DAFE900F3003E /* Log.swift */; };
-		E1EAEB411B8DAFE900F3003E /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EAEB311B8DAFE900F3003E /* Regex.swift */; };
-		E1EAEB421B8DAFE900F3003E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EAEB321B8DAFE900F3003E /* Response.swift */; };
-		E1EAEB431B8DAFE900F3003E /* ResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EAEB331B8DAFE900F3003E /* ResponseError.swift */; };
-		E1EAEB441B8DAFE900F3003E /* Serializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EAEB341B8DAFE900F3003E /* Serializable.swift */; };
-		E1EAEB4B1B8E03DB00F3003E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EAEB251B8DAFE900F3003E /* Card.swift */; };
-		E1EAEB4C1B8E03DB00F3003E /* CardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EAEB261B8DAFE900F3003E /* CardInfo.swift */; };
-		E1EAEB4D1B8E03DB00F3003E /* CardToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EAEB291B8DAFE900F3003E /* CardToken.swift */; };
-		E1EAEB4E1B8E03DB00F3003E /* CardTokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EAEB2A1B8DAFE900F3003E /* CardTokenResponse.swift */; };
-		E1EAEB4F1B8E03DB00F3003E /* CardValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EAEB2B1B8DAFE900F3003E /* CardValidator.swift */; };
-		E1EAEB501B8E03DB00F3003E /* CustomerDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EAEB2D1B8DAFE900F3003E /* CustomerDetails.swift */; };
+		004806134018308BE966C752EADEFBAE /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5C2EE070CFED999247CAB15D83CF5E /* Response.swift */; };
+		13173A980ACECC0FC37972F9A681AF10 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2950B34EBFE9D940983D70FCA29E53FE /* Error.swift */; };
+		1A7AE96238DAAD5B2C52ECD2130452B9 /* CheckoutKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FFE590E90138E3CDA0D45EC132F523 /* CheckoutKit.swift */; };
+		2C0048B252A3C275A4D9EB712324D43D /* CheckoutKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 32A8E5189799EB07CF3465355E109D28 /* CheckoutKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31CC4D044B833630C609EEDF24A56CB2 /* Serializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F54CCAC8F128DE4C67B59C367514FF /* Serializable.swift */; };
+		411308F22144B78CDFB414B4AC52851A /* CheckoutKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 548A1646474A5C64399C250756100F9E /* CheckoutKit.framework */; };
+		461B5B385AB544505661379EC2FDBCF1 /* Nimble.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA4A1E2536B9DA004CF37DEEB84BFC6 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		59AD7AF113609AEF2D7ACB7A9E2B283D /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961E3838F32CE1E0B2334B36096F98E /* Log.swift */; };
+		5B44E26B8D8A657E2B478F78ACE887CD /* ResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99CD210B2BA9317830336D9AD8C3D63 /* ResponseError.swift */; };
+		5BF51D2844DA9536DE84A898BF90918D /* CardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D2A598075D39324AFFB1A67DB11356 /* CardInfo.swift */; };
+		8ABC8681BF708E7A4FE1AA2879257CAF /* CustomerDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAB2FEF9826858FF9306B01E0685BA9 /* CustomerDetails.swift */; };
+		93DBC4770F6335B7A49E86AEEB845AF8 /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA02FF4B8380335C0C5C4136B36F25C8 /* HTTPRequest.swift */; };
+		9A801A790B2C0173E21677F61B5DE1AD /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB9B9115DFC2B732B2F77B413E99C7A /* Card.swift */; };
+		9E9DD87E4ABA822B0BFAF90EB9854820 /* CardProviderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDC9235C05C425A77B317E15FF5ECDF /* CardProviderResponse.swift */; };
+		A1C2F5BD2B45251765CEE25463740DAB /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D587F4C53E601A1B7C3032E221088A8F /* Regex.swift */; };
+		A421D2AD2C096D6396907DAC88BD29B8 /* CardToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4EDDABD038ACB4953B2174246E8907 /* CardToken.swift */; };
+		AE490FD4A783807342E5021B920BA5F7 /* CheckoutKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A8F72F5E31329539B0BE3422608EE5 /* CheckoutKitTests.swift */; };
+		C8D5D1A9862B794A91171076CE969FE4 /* CardValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71539BCE300AFC2E16A9CB04826DE246 /* CardValidator.swift */; };
+		E6BBAC35BC01B36B77EFA1C8BD0C97CE /* CheckoutKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 548A1646474A5C64399C250756100F9E /* CheckoutKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F3544DC5FB4E4503EF3C3814C9787E67 /* CardProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37419F35809367121E262BC22B856DD6 /* CardProvider.swift */; };
+		F3B22B51360DD1E93D970B02AB79601A /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA4A1E2536B9DA004CF37DEEB84BFC6 /* Nimble.framework */; };
+		FA77AC7B2A82AA8A7BA930DF180EF943 /* CardTokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14002BBF4A5C7250D5E9AFC480111BA0 /* CardTokenResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E1EAEAD01B8DAD0600F3003E /* PBXContainerItemProxy */ = {
+		008ACBF255C898AA898D51F0C8DF309A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E1EAEABA1B8DAD0600F3003E /* Project object */;
+			containerPortal = A0B50BA98957034F984A4D68DA8F2143 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E1EAEAC21B8DAD0600F3003E;
+			remoteGlobalIDString = 0454147966DE2AA6563C141D0C9923AE;
 			remoteInfo = CheckoutKit;
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1C9ED02BF13353DCF40DAFC7D120CBCE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E6BBAC35BC01B36B77EFA1C8BD0C97CE /* CheckoutKit.framework in Embed Frameworks */,
+				461B5B385AB544505661379EC2FDBCF1 /* Nimble.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		E1EAEAC31B8DAD0600F3003E /* CheckoutKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CheckoutKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1EAEAC71B8DAD0600F3003E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E1EAEAC81B8DAD0600F3003E /* CheckoutKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckoutKit.h; sourceTree = "<group>"; };
-		E1EAEACE1B8DAD0600F3003E /* CheckoutKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckoutKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1EAEAD41B8DAD0600F3003E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E1EAEAD51B8DAD0600F3003E /* CheckoutKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutKitTests.swift; sourceTree = "<group>"; };
-		E1EAEB251B8DAFE900F3003E /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
-		E1EAEB261B8DAFE900F3003E /* CardInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardInfo.swift; sourceTree = "<group>"; };
-		E1EAEB271B8DAFE900F3003E /* CardProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardProvider.swift; sourceTree = "<group>"; };
-		E1EAEB281B8DAFE900F3003E /* CardProviderResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardProviderResponse.swift; sourceTree = "<group>"; };
-		E1EAEB291B8DAFE900F3003E /* CardToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardToken.swift; sourceTree = "<group>"; };
-		E1EAEB2A1B8DAFE900F3003E /* CardTokenResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardTokenResponse.swift; sourceTree = "<group>"; };
-		E1EAEB2B1B8DAFE900F3003E /* CardValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardValidator.swift; sourceTree = "<group>"; };
-		E1EAEB2C1B8DAFE900F3003E /* CheckoutKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutKit.swift; sourceTree = "<group>"; };
-		E1EAEB2D1B8DAFE900F3003E /* CustomerDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerDetails.swift; sourceTree = "<group>"; };
-		E1EAEB2E1B8DAFE900F3003E /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
-		E1EAEB2F1B8DAFE900F3003E /* HTTPRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequest.swift; sourceTree = "<group>"; };
-		E1EAEB301B8DAFE900F3003E /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
-		E1EAEB311B8DAFE900F3003E /* Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
-		E1EAEB321B8DAFE900F3003E /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
-		E1EAEB331B8DAFE900F3003E /* ResponseError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseError.swift; sourceTree = "<group>"; };
-		E1EAEB341B8DAFE900F3003E /* Serializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Serializable.swift; sourceTree = "<group>"; };
+		0D5C2EE070CFED999247CAB15D83CF5E /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		14002BBF4A5C7250D5E9AFC480111BA0 /* CardTokenResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTokenResponse.swift; sourceTree = "<group>"; };
+		2950B34EBFE9D940983D70FCA29E53FE /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		32A8E5189799EB07CF3465355E109D28 /* CheckoutKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckoutKit.h; sourceTree = "<group>"; };
+		37419F35809367121E262BC22B856DD6 /* CardProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProvider.swift; sourceTree = "<group>"; };
+		3FA4A1E2536B9DA004CF37DEEB84BFC6 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = "<group>"; };
+		537EE65A1F9E245132FD013E6007A93E /* CheckoutKitTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = CheckoutKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		548A1646474A5C64399C250756100F9E /* CheckoutKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CheckoutKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5961E3838F32CE1E0B2334B36096F98E /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		59FFE590E90138E3CDA0D45EC132F523 /* CheckoutKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutKit.swift; sourceTree = "<group>"; };
+		6FAB2FEF9826858FF9306B01E0685BA9 /* CustomerDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerDetails.swift; sourceTree = "<group>"; };
+		71539BCE300AFC2E16A9CB04826DE246 /* CardValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardValidator.swift; sourceTree = "<group>"; };
+		A2D2A598075D39324AFFB1A67DB11356 /* CardInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfo.swift; sourceTree = "<group>"; };
+		A99CD210B2BA9317830336D9AD8C3D63 /* ResponseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseError.swift; sourceTree = "<group>"; };
+		AF4F8AE841170188BF196DAC2BBE136F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B595BA72DCFD5F81C27A4938E78E56DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8F54CCAC8F128DE4C67B59C367514FF /* Serializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serializable.swift; sourceTree = "<group>"; };
+		BE4EDDABD038ACB4953B2174246E8907 /* CardToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardToken.swift; sourceTree = "<group>"; };
+		CFB9B9115DFC2B732B2F77B413E99C7A /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		D587F4C53E601A1B7C3032E221088A8F /* Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
+		D6A8F72F5E31329539B0BE3422608EE5 /* CheckoutKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutKitTests.swift; sourceTree = "<group>"; };
+		FA02FF4B8380335C0C5C4136B36F25C8 /* HTTPRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequest.swift; sourceTree = "<group>"; };
+		FEDC9235C05C425A77B317E15FF5ECDF /* CardProviderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProviderResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E1EAEABF1B8DAD0600F3003E /* Frameworks */ = {
+		C2A2F50B44DB8100F99DDD1E686351FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E1EAEACB1B8DAD0600F3003E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E1EAEACF1B8DAD0600F3003E /* CheckoutKit.framework in Frameworks */,
+				411308F22144B78CDFB414B4AC52851A /* CheckoutKit.framework in Frameworks */,
+				F3B22B51360DD1E93D970B02AB79601A /* Nimble.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		553055B52809FDEA84E72BD1 /* Frameworks */ = {
+		0B6E6FBA6A3117236298E15035DF924C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F9012EDC88453A9192E346FBD242654E /* Carthage */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E1EAEAB91B8DAD0600F3003E = {
+		1A3787AD970F332E608DB02549D81EB0 /* CheckoutKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				E1EAEAC51B8DAD0600F3003E /* CheckoutKit */,
-				E1EAEAD21B8DAD0600F3003E /* CheckoutKitTests */,
-				E1EAEAC41B8DAD0600F3003E /* Products */,
-				553055B52809FDEA84E72BD1 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		E1EAEAC41B8DAD0600F3003E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E1EAEAC31B8DAD0600F3003E /* CheckoutKit.framework */,
-				E1EAEACE1B8DAD0600F3003E /* CheckoutKitTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E1EAEAC51B8DAD0600F3003E /* CheckoutKit */ = {
-			isa = PBXGroup;
-			children = (
-				E1F6FE931B95F92D00BAF027 /* models */,
-				E1EAEB2B1B8DAFE900F3003E /* CardValidator.swift */,
-				E1EAEB2C1B8DAFE900F3003E /* CheckoutKit.swift */,
-				E1EAEB2E1B8DAFE900F3003E /* Error.swift */,
-				E1F6FE941B95F95C00BAF027 /* httpconnector */,
-				E1EAEB301B8DAFE900F3003E /* Log.swift */,
-				E1EAEB311B8DAFE900F3003E /* Regex.swift */,
-				E1EAEAC81B8DAD0600F3003E /* CheckoutKit.h */,
-				E1EAEAC61B8DAD0600F3003E /* Supporting Files */,
-			);
-			path = CheckoutKit;
-			sourceTree = "<group>";
-		};
-		E1EAEAC61B8DAD0600F3003E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E1EAEAC71B8DAD0600F3003E /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		E1EAEAD21B8DAD0600F3003E /* CheckoutKitTests */ = {
-			isa = PBXGroup;
-			children = (
-				E1EAEAD51B8DAD0600F3003E /* CheckoutKitTests.swift */,
-				E1EAEAD31B8DAD0600F3003E /* Supporting Files */,
+				D6A8F72F5E31329539B0BE3422608EE5 /* CheckoutKitTests.swift */,
+				AF4F8AE841170188BF196DAC2BBE136F /* Info.plist */,
 			);
 			path = CheckoutKitTests;
 			sourceTree = "<group>";
 		};
-		E1EAEAD31B8DAD0600F3003E /* Supporting Files */ = {
+		3D99AF86FB616B7C623FBA6A65BB276E = {
 			isa = PBXGroup;
 			children = (
-				E1EAEAD41B8DAD0600F3003E /* Info.plist */,
+				C36B5BF4A0A16CCD5B81B34522898B45 /* CheckoutKit */,
+				1A3787AD970F332E608DB02549D81EB0 /* CheckoutKitTests */,
+				0B6E6FBA6A3117236298E15035DF924C /* Frameworks */,
+				74614DF5EF54AF382DAF0B76C18C9A72 /* Products */,
 			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E1F6FE931B95F92D00BAF027 /* models */ = {
+		74614DF5EF54AF382DAF0B76C18C9A72 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E1EAEB341B8DAFE900F3003E /* Serializable.swift */,
-				E1EAEB251B8DAFE900F3003E /* Card.swift */,
-				E1EAEB261B8DAFE900F3003E /* CardInfo.swift */,
-				E1EAEB271B8DAFE900F3003E /* CardProvider.swift */,
-				E1EAEB281B8DAFE900F3003E /* CardProviderResponse.swift */,
-				E1EAEB291B8DAFE900F3003E /* CardToken.swift */,
-				E1EAEB2A1B8DAFE900F3003E /* CardTokenResponse.swift */,
-				E1EAEB2D1B8DAFE900F3003E /* CustomerDetails.swift */,
+				548A1646474A5C64399C250756100F9E /* CheckoutKit.framework */,
+				537EE65A1F9E245132FD013E6007A93E /* CheckoutKitTests.xctest */,
 			);
-			name = models;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		E1F6FE941B95F95C00BAF027 /* httpconnector */ = {
+		C36B5BF4A0A16CCD5B81B34522898B45 /* CheckoutKit */ = {
 			isa = PBXGroup;
 			children = (
-				E1EAEB2F1B8DAFE900F3003E /* HTTPRequest.swift */,
-				E1EAEB321B8DAFE900F3003E /* Response.swift */,
-				E1EAEB331B8DAFE900F3003E /* ResponseError.swift */,
+				CFB9B9115DFC2B732B2F77B413E99C7A /* Card.swift */,
+				A2D2A598075D39324AFFB1A67DB11356 /* CardInfo.swift */,
+				37419F35809367121E262BC22B856DD6 /* CardProvider.swift */,
+				FEDC9235C05C425A77B317E15FF5ECDF /* CardProviderResponse.swift */,
+				BE4EDDABD038ACB4953B2174246E8907 /* CardToken.swift */,
+				14002BBF4A5C7250D5E9AFC480111BA0 /* CardTokenResponse.swift */,
+				71539BCE300AFC2E16A9CB04826DE246 /* CardValidator.swift */,
+				32A8E5189799EB07CF3465355E109D28 /* CheckoutKit.h */,
+				59FFE590E90138E3CDA0D45EC132F523 /* CheckoutKit.swift */,
+				6FAB2FEF9826858FF9306B01E0685BA9 /* CustomerDetails.swift */,
+				2950B34EBFE9D940983D70FCA29E53FE /* Error.swift */,
+				FA02FF4B8380335C0C5C4136B36F25C8 /* HTTPRequest.swift */,
+				B595BA72DCFD5F81C27A4938E78E56DB /* Info.plist */,
+				5961E3838F32CE1E0B2334B36096F98E /* Log.swift */,
+				D587F4C53E601A1B7C3032E221088A8F /* Regex.swift */,
+				0D5C2EE070CFED999247CAB15D83CF5E /* Response.swift */,
+				A99CD210B2BA9317830336D9AD8C3D63 /* ResponseError.swift */,
+				B8F54CCAC8F128DE4C67B59C367514FF /* Serializable.swift */,
 			);
-			name = httpconnector;
+			path = CheckoutKit;
+			sourceTree = "<group>";
+		};
+		DB07A23F67771F60EB09EAA9FE2CEC98 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3FA4A1E2536B9DA004CF37DEEB84BFC6 /* Nimble.framework */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		F9012EDC88453A9192E346FBD242654E /* Carthage */ = {
+			isa = PBXGroup;
+			children = (
+				DB07A23F67771F60EB09EAA9FE2CEC98 /* iOS */,
+			);
+			name = Carthage;
+			path = Carthage/Build;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		E1EAEAC01B8DAD0600F3003E /* Headers */ = {
+		4A410937FC32C1DEAA86F72D2D8F7E45 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1EAEAC91B8DAD0600F3003E /* CheckoutKit.h in Headers */,
+				2C0048B252A3C275A4D9EB712324D43D /* CheckoutKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		E1EAEAC21B8DAD0600F3003E /* CheckoutKit */ = {
+		0454147966DE2AA6563C141D0C9923AE /* CheckoutKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E1EAEAD91B8DAD0600F3003E /* Build configuration list for PBXNativeTarget "CheckoutKit" */;
+			buildConfigurationList = C1D7AB318585A2632F086444CE7E9428 /* Build configuration list for PBXNativeTarget "CheckoutKit" */;
 			buildPhases = (
-				E1EAEABE1B8DAD0600F3003E /* Sources */,
-				E1EAEABF1B8DAD0600F3003E /* Frameworks */,
-				E1EAEAC01B8DAD0600F3003E /* Headers */,
-				E1EAEAC11B8DAD0600F3003E /* Resources */,
+				4A410937FC32C1DEAA86F72D2D8F7E45 /* Headers */,
+				D1567CCE4C1BD3A430701189B0AC73CD /* Sources */,
 			);
 			buildRules = (
 			);
@@ -203,311 +200,308 @@
 			);
 			name = CheckoutKit;
 			productName = CheckoutKit;
-			productReference = E1EAEAC31B8DAD0600F3003E /* CheckoutKit.framework */;
+			productReference = 548A1646474A5C64399C250756100F9E /* CheckoutKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E1EAEACD1B8DAD0600F3003E /* CheckoutKitTests */ = {
+		7D524965E556F2EBF2B8A70D5E0898D6 /* CheckoutKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E1EAEADC1B8DAD0600F3003E /* Build configuration list for PBXNativeTarget "CheckoutKitTests" */;
+			buildConfigurationList = 31A3422770AEA46FDBF06BD6BEB23918 /* Build configuration list for PBXNativeTarget "CheckoutKitTests" */;
 			buildPhases = (
-				E1EAEACA1B8DAD0600F3003E /* Sources */,
-				E1EAEACB1B8DAD0600F3003E /* Frameworks */,
-				E1EAEACC1B8DAD0600F3003E /* Resources */,
+				9736393A1900FDAD3D65987E70FE2CDC /* Sources */,
+				C2A2F50B44DB8100F99DDD1E686351FC /* Frameworks */,
+				1C9ED02BF13353DCF40DAFC7D120CBCE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E1EAEAD11B8DAD0600F3003E /* PBXTargetDependency */,
+				B06235E625D572FF678E05193752490C /* PBXTargetDependency */,
 			);
 			name = CheckoutKitTests;
 			productName = CheckoutKitTests;
-			productReference = E1EAEACE1B8DAD0600F3003E /* CheckoutKitTests.xctest */;
+			productReference = 537EE65A1F9E245132FD013E6007A93E /* CheckoutKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E1EAEABA1B8DAD0600F3003E /* Project object */ = {
+		A0B50BA98957034F984A4D68DA8F2143 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftMigration = 0710;
-				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = Checkout.com;
-				TargetAttributes = {
-					E1EAEAC21B8DAD0600F3003E = {
-						CreatedOnToolsVersion = 6.4;
-						LastSwiftMigration = 0900;
-					};
-					E1EAEACD1B8DAD0600F3003E = {
-						CreatedOnToolsVersion = 6.4;
-						LastSwiftMigration = 0800;
-					};
-				};
+				LastUpgradeCheck = 1020;
 			};
-			buildConfigurationList = E1EAEABD1B8DAD0600F3003E /* Build configuration list for PBXProject "CheckoutKit" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = EB4635CF708D2DFDF66EFD309AD46022 /* Build configuration list for PBXProject "CheckoutKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = E1EAEAB91B8DAD0600F3003E;
-			productRefGroup = E1EAEAC41B8DAD0600F3003E /* Products */;
+			mainGroup = 3D99AF86FB616B7C623FBA6A65BB276E;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E1EAEAC21B8DAD0600F3003E /* CheckoutKit */,
-				E1EAEACD1B8DAD0600F3003E /* CheckoutKitTests */,
+				0454147966DE2AA6563C141D0C9923AE /* CheckoutKit */,
+				7D524965E556F2EBF2B8A70D5E0898D6 /* CheckoutKitTests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		E1EAEAC11B8DAD0600F3003E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E1EAEACC1B8DAD0600F3003E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		E1EAEABE1B8DAD0600F3003E /* Sources */ = {
+		9736393A1900FDAD3D65987E70FE2CDC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1EAEB4B1B8E03DB00F3003E /* Card.swift in Sources */,
-				E1EAEB4C1B8E03DB00F3003E /* CardInfo.swift in Sources */,
-				E1EAEB4D1B8E03DB00F3003E /* CardToken.swift in Sources */,
-				E1EAEB4E1B8E03DB00F3003E /* CardTokenResponse.swift in Sources */,
-				E1EAEB4F1B8E03DB00F3003E /* CardValidator.swift in Sources */,
-				E1EAEB501B8E03DB00F3003E /* CustomerDetails.swift in Sources */,
-				E1EAEB3F1B8DAFE900F3003E /* HTTPRequest.swift in Sources */,
-				E1EAEB401B8DAFE900F3003E /* Log.swift in Sources */,
-				E1EAEB441B8DAFE900F3003E /* Serializable.swift in Sources */,
-				E1EAEB3C1B8DAFE900F3003E /* CheckoutKit.swift in Sources */,
-				E1EAEB421B8DAFE900F3003E /* Response.swift in Sources */,
-				E1EAEB381B8DAFE900F3003E /* CardProviderResponse.swift in Sources */,
-				E1EAEB371B8DAFE900F3003E /* CardProvider.swift in Sources */,
-				E1EAEB3E1B8DAFE900F3003E /* Error.swift in Sources */,
-				E1EAEB431B8DAFE900F3003E /* ResponseError.swift in Sources */,
-				E1EAEB411B8DAFE900F3003E /* Regex.swift in Sources */,
+				AE490FD4A783807342E5021B920BA5F7 /* CheckoutKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1EAEACA1B8DAD0600F3003E /* Sources */ = {
+		D1567CCE4C1BD3A430701189B0AC73CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E19347EE1C07771B007CBFE7 /* CheckoutKitTests.swift in Sources */,
+				9A801A790B2C0173E21677F61B5DE1AD /* Card.swift in Sources */,
+				5BF51D2844DA9536DE84A898BF90918D /* CardInfo.swift in Sources */,
+				F3544DC5FB4E4503EF3C3814C9787E67 /* CardProvider.swift in Sources */,
+				9E9DD87E4ABA822B0BFAF90EB9854820 /* CardProviderResponse.swift in Sources */,
+				A421D2AD2C096D6396907DAC88BD29B8 /* CardToken.swift in Sources */,
+				FA77AC7B2A82AA8A7BA930DF180EF943 /* CardTokenResponse.swift in Sources */,
+				C8D5D1A9862B794A91171076CE969FE4 /* CardValidator.swift in Sources */,
+				1A7AE96238DAAD5B2C52ECD2130452B9 /* CheckoutKit.swift in Sources */,
+				8ABC8681BF708E7A4FE1AA2879257CAF /* CustomerDetails.swift in Sources */,
+				13173A980ACECC0FC37972F9A681AF10 /* Error.swift in Sources */,
+				93DBC4770F6335B7A49E86AEEB845AF8 /* HTTPRequest.swift in Sources */,
+				59AD7AF113609AEF2D7ACB7A9E2B283D /* Log.swift in Sources */,
+				A1C2F5BD2B45251765CEE25463740DAB /* Regex.swift in Sources */,
+				004806134018308BE966C752EADEFBAE /* Response.swift in Sources */,
+				5B44E26B8D8A657E2B478F78ACE887CD /* ResponseError.swift in Sources */,
+				31CC4D044B833630C609EEDF24A56CB2 /* Serializable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E1EAEAD11B8DAD0600F3003E /* PBXTargetDependency */ = {
+		B06235E625D572FF678E05193752490C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E1EAEAC21B8DAD0600F3003E /* CheckoutKit */;
-			targetProxy = E1EAEAD01B8DAD0600F3003E /* PBXContainerItemProxy */;
+			target = 0454147966DE2AA6563C141D0C9923AE /* CheckoutKit */;
+			targetProxy = 008ACBF255C898AA898D51F0C8DF309A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		E1EAEAD71B8DAD0600F3003E /* Debug */ = {
+		1F2F645116196BF1D2645DD6DF3B7E08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = CheckoutKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.checkout.CheckoutKitTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		53C17D0265C9BC3EF435E7A7EB9A7E88 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CD752010B022C7F193C7457DAC80A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = CheckoutKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.checkout.CheckoutKitTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60DEFD29EC1B297A22B4E815EC804659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CheckoutKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.checkout.CheckoutKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		C49950F04E00835F6D781A794C99A65F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
 					"$(inherited)",
+					"DEBUG=1",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				SWIFT_VERSION = 4;
 			};
 			name = Debug;
 		};
-		E1EAEAD81B8DAD0600F3003E /* Release */ = {
+		C60E6F43666EB92BF06B4C4208E7CF75 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
+				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CheckoutKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.checkout.CheckoutKit;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E1EAEADA1B8DAD0600F3003E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = CheckoutKit/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.checkout.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		E1EAEADB1B8DAD0600F3003E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = CheckoutKit/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.checkout.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
-		E1EAEADD1B8DAD0600F3003E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = CheckoutKitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.checkout.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		E1EAEADE1B8DAD0600F3003E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = CheckoutKitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.checkout.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E1EAEABD1B8DAD0600F3003E /* Build configuration list for PBXProject "CheckoutKit" */ = {
+		31A3422770AEA46FDBF06BD6BEB23918 /* Build configuration list for PBXNativeTarget "CheckoutKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E1EAEAD71B8DAD0600F3003E /* Debug */,
-				E1EAEAD81B8DAD0600F3003E /* Release */,
+				5CD752010B022C7F193C7457DAC80A11 /* Debug */,
+				1F2F645116196BF1D2645DD6DF3B7E08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "";
 		};
-		E1EAEAD91B8DAD0600F3003E /* Build configuration list for PBXNativeTarget "CheckoutKit" */ = {
+		C1D7AB318585A2632F086444CE7E9428 /* Build configuration list for PBXNativeTarget "CheckoutKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E1EAEADA1B8DAD0600F3003E /* Debug */,
-				E1EAEADB1B8DAD0600F3003E /* Release */,
+				60DEFD29EC1B297A22B4E815EC804659 /* Debug */,
+				C60E6F43666EB92BF06B4C4208E7CF75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "";
 		};
-		E1EAEADC1B8DAD0600F3003E /* Build configuration list for PBXNativeTarget "CheckoutKitTests" */ = {
+		EB4635CF708D2DFDF66EFD309AD46022 /* Build configuration list for PBXProject "CheckoutKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E1EAEADD1B8DAD0600F3003E /* Debug */,
-				E1EAEADE1B8DAD0600F3003E /* Release */,
+				C49950F04E00835F6D781A794C99A65F /* Debug */,
+				53C17D0265C9BC3EF435E7A7EB9A7E88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E1EAEABA1B8DAD0600F3003E /* Project object */;
+	rootObject = A0B50BA98957034F984A4D68DA8F2143 /* Project object */;
 }

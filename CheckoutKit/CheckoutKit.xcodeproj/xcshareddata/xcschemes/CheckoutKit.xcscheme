@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0720"
+   LastUpgradeVersion = "1020"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E1EAEAC21B8DAD0600F3003E"
+               BlueprintIdentifier = "0454147966DE2AA6563C141D0C9923AE"
                BuildableName = "CheckoutKit.framework"
                BlueprintName = "CheckoutKit"
-               ReferencedContainer = "container:CheckoutKit.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E1EAEACD1B8DAD0600F3003E"
-               BuildableName = "CheckoutKitTests.xctest"
-               BlueprintName = "CheckoutKitTests"
                ReferencedContainer = "container:CheckoutKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E1EAEACD1B8DAD0600F3003E"
+               BlueprintIdentifier = "7D524965E556F2EBF2B8A70D5E0898D6"
                BuildableName = "CheckoutKitTests.xctest"
                BlueprintName = "CheckoutKitTests"
                ReferencedContainer = "container:CheckoutKit.xcodeproj">
@@ -56,12 +42,14 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E1EAEAC21B8DAD0600F3003E"
+            BlueprintIdentifier = "0454147966DE2AA6563C141D0C9923AE"
             BuildableName = "CheckoutKit.framework"
             BlueprintName = "CheckoutKit"
             ReferencedContainer = "container:CheckoutKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <CommandLineArguments>
+      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -78,12 +66,14 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E1EAEAC21B8DAD0600F3003E"
+            BlueprintIdentifier = "0454147966DE2AA6563C141D0C9923AE"
             BuildableName = "CheckoutKit.framework"
             BlueprintName = "CheckoutKit"
             ReferencedContainer = "container:CheckoutKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <CommandLineArguments>
+      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -93,15 +83,18 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E1EAEAC21B8DAD0600F3003E"
+            BlueprintIdentifier = "0454147966DE2AA6563C141D0C9923AE"
             BuildableName = "CheckoutKit.framework"
             BlueprintName = "CheckoutKit"
             ReferencedContainer = "container:CheckoutKit.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
+      <CommandLineArguments>
+      </CommandLineArguments>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
